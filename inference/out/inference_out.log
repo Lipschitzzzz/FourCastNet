@@ -1,0 +1,369 @@
+2025-03-24 19:10:54,913 - root - INFO - --------------- Versions ---------------
+2025-03-24 19:10:54,914 - root - INFO - Torch: 2.6.0+cu118
+2025-03-24 19:10:54,915 - root - INFO - ----------------------------------------
+2025-03-24 19:10:54,915 - root - INFO - ------------------ Configuration ------------------
+2025-03-24 19:10:54,915 - root - INFO - Configuration file: C:\Users\zhaor\Desktop\FourCastNet-master\config\AFNO.yaml
+2025-03-24 19:10:54,916 - root - INFO - Configuration name: afno_backbone
+2025-03-24 19:10:54,916 - root - INFO - log_to_wandb True
+2025-03-24 19:10:54,917 - root - INFO - lr 0.0005
+2025-03-24 19:10:54,918 - root - INFO - batch_size 64
+2025-03-24 19:10:54,918 - root - INFO - max_epochs 150
+2025-03-24 19:10:54,919 - root - INFO - scheduler CosineAnnealingLR
+2025-03-24 19:10:54,919 - root - INFO - in_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:10:54,920 - root - INFO - out_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:10:54,921 - root - INFO - orography False
+2025-03-24 19:10:54,921 - root - INFO - orography_path None
+2025-03-24 19:10:54,922 - root - INFO - exp_dir /pscratch/sd/s/shas1693/results/era5_wind
+2025-03-24 19:10:54,922 - root - INFO - train_data_path /pscratch/sd/s/shas1693/data/era5/train
+2025-03-24 19:10:54,923 - root - INFO - valid_data_path /pscratch/sd/s/shas1693/data/era5/test
+2025-03-24 19:10:54,923 - root - INFO - inf_data_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out
+2025-03-24 19:10:54,924 - root - INFO - time_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\time_means.npy
+2025-03-24 19:10:54,924 - root - INFO - global_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_means.npy
+2025-03-24 19:10:54,925 - root - INFO - global_stds_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_stds.npy
+2025-03-24 19:10:54,925 - root - INFO - loss l2
+2025-03-24 19:10:54,926 - root - INFO - num_data_workers 4
+2025-03-24 19:10:54,926 - root - INFO - dt 1
+2025-03-24 19:10:54,927 - root - INFO - n_history 0
+2025-03-24 19:10:54,927 - root - INFO - prediction_type iterative
+2025-03-24 19:10:54,928 - root - INFO - prediction_length 41
+2025-03-24 19:10:54,928 - root - INFO - n_initial_conditions 5
+2025-03-24 19:10:54,929 - root - INFO - ics_type default
+2025-03-24 19:10:54,929 - root - INFO - save_raw_forecasts True
+2025-03-24 19:10:54,930 - root - INFO - save_channel False
+2025-03-24 19:10:54,930 - root - INFO - masked_acc False
+2025-03-24 19:10:54,931 - root - INFO - maskpath None
+2025-03-24 19:10:54,931 - root - INFO - perturb False
+2025-03-24 19:10:54,932 - root - INFO - add_grid False
+2025-03-24 19:10:54,932 - root - INFO - N_grid_channels 0
+2025-03-24 19:10:54,932 - root - INFO - gridtype sinusoidal
+2025-03-24 19:10:54,933 - root - INFO - roll False
+2025-03-24 19:10:54,933 - root - INFO - num_blocks 8
+2025-03-24 19:10:54,934 - root - INFO - nettype afno
+2025-03-24 19:10:54,934 - root - INFO - patch_size 8
+2025-03-24 19:10:54,937 - root - INFO - width 56
+2025-03-24 19:10:54,939 - root - INFO - modes 32
+2025-03-24 19:10:54,939 - root - INFO - target default
+2025-03-24 19:10:54,940 - root - INFO - normalization zscore
+2025-03-24 19:10:54,940 - root - INFO - log_to_screen True
+2025-03-24 19:10:54,940 - root - INFO - save_checkpoint True
+2025-03-24 19:10:54,941 - root - INFO - enable_nhwc False
+2025-03-24 19:10:54,942 - root - INFO - optimizer_type FusedAdam
+2025-03-24 19:10:54,942 - root - INFO - crop_size_x None
+2025-03-24 19:10:54,943 - root - INFO - crop_size_y None
+2025-03-24 19:10:54,943 - root - INFO - two_step_training False
+2025-03-24 19:10:54,943 - root - INFO - plot_animations False
+2025-03-24 19:10:54,944 - root - INFO - add_noise False
+2025-03-24 19:10:54,944 - root - INFO - noise_std 0
+2025-03-24 19:10:54,945 - root - INFO - world_size 1
+2025-03-24 19:10:54,945 - root - INFO - interp 0
+2025-03-24 19:10:54,946 - root - INFO - use_daily_climatology False
+2025-03-24 19:10:54,946 - root - INFO - global_batch_size 64
+2025-03-24 19:10:54,947 - root - INFO - experiment_dir C:\Users\zhaor\Desktop\FourCastNet-master\inference\out
+2025-03-24 19:10:54,947 - root - INFO - best_checkpoint_path C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:10:54,948 - root - INFO - resuming False
+2025-03-24 19:10:54,948 - root - INFO - local_rank 0
+2025-03-24 19:10:54,949 - root - INFO - ---------------------------------------------------
+2025-03-24 19:10:54,949 - root - INFO - Inference for 36 initial conditions
+2025-03-24 19:10:54,952 - root - INFO - Getting file stats from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:10:54,954 - root - INFO - Number of samples per year: 52
+2025-03-24 19:10:54,954 - root - INFO - Found data at path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out. Number of examples: 52. Image Shape: 720 x 1440 x 20
+2025-03-24 19:10:54,955 - root - INFO - Delta t: 6 hours
+2025-03-24 19:10:54,956 - root - INFO - Including 0 hours of past history in training at a frequency of 6 hours
+2025-03-24 19:10:54,957 - root - INFO - Loading trained model checkpoint from C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:12:25,607 - root - INFO - --------------- Versions ---------------
+2025-03-24 19:12:25,607 - root - INFO - Torch: 2.6.0+cu118
+2025-03-24 19:12:25,608 - root - INFO - ----------------------------------------
+2025-03-24 19:12:25,608 - root - INFO - ------------------ Configuration ------------------
+2025-03-24 19:12:25,608 - root - INFO - Configuration file: C:\Users\zhaor\Desktop\FourCastNet-master\config\AFNO.yaml
+2025-03-24 19:12:25,608 - root - INFO - Configuration name: afno_backbone
+2025-03-24 19:12:25,609 - root - INFO - log_to_wandb True
+2025-03-24 19:12:25,609 - root - INFO - lr 0.0005
+2025-03-24 19:12:25,609 - root - INFO - batch_size 64
+2025-03-24 19:12:25,609 - root - INFO - max_epochs 150
+2025-03-24 19:12:25,609 - root - INFO - scheduler CosineAnnealingLR
+2025-03-24 19:12:25,610 - root - INFO - in_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:12:25,610 - root - INFO - out_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:12:25,610 - root - INFO - orography False
+2025-03-24 19:12:25,610 - root - INFO - orography_path None
+2025-03-24 19:12:25,611 - root - INFO - exp_dir /pscratch/sd/s/shas1693/results/era5_wind
+2025-03-24 19:12:25,611 - root - INFO - train_data_path /pscratch/sd/s/shas1693/data/era5/train
+2025-03-24 19:12:25,613 - root - INFO - valid_data_path /pscratch/sd/s/shas1693/data/era5/test
+2025-03-24 19:12:25,613 - root - INFO - inf_data_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out
+2025-03-24 19:12:25,615 - root - INFO - time_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\time_means.npy
+2025-03-24 19:12:25,616 - root - INFO - global_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_means.npy
+2025-03-24 19:12:25,618 - root - INFO - global_stds_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_stds.npy
+2025-03-24 19:12:25,619 - root - INFO - loss l2
+2025-03-24 19:12:25,620 - root - INFO - num_data_workers 4
+2025-03-24 19:12:25,621 - root - INFO - dt 1
+2025-03-24 19:12:25,622 - root - INFO - n_history 0
+2025-03-24 19:12:25,623 - root - INFO - prediction_type iterative
+2025-03-24 19:12:25,625 - root - INFO - prediction_length 41
+2025-03-24 19:12:25,625 - root - INFO - n_initial_conditions 5
+2025-03-24 19:12:25,627 - root - INFO - ics_type default
+2025-03-24 19:12:25,632 - root - INFO - save_raw_forecasts True
+2025-03-24 19:12:25,632 - root - INFO - save_channel False
+2025-03-24 19:12:25,640 - root - INFO - masked_acc False
+2025-03-24 19:12:25,641 - root - INFO - maskpath None
+2025-03-24 19:12:25,642 - root - INFO - perturb False
+2025-03-24 19:12:25,643 - root - INFO - add_grid False
+2025-03-24 19:12:25,652 - root - INFO - N_grid_channels 0
+2025-03-24 19:12:25,653 - root - INFO - gridtype sinusoidal
+2025-03-24 19:12:25,657 - root - INFO - roll False
+2025-03-24 19:12:25,657 - root - INFO - num_blocks 8
+2025-03-24 19:12:25,661 - root - INFO - nettype afno
+2025-03-24 19:12:25,671 - root - INFO - patch_size 8
+2025-03-24 19:12:25,672 - root - INFO - width 56
+2025-03-24 19:12:25,676 - root - INFO - modes 32
+2025-03-24 19:12:25,685 - root - INFO - target default
+2025-03-24 19:12:25,685 - root - INFO - normalization zscore
+2025-03-24 19:12:25,692 - root - INFO - log_to_screen True
+2025-03-24 19:12:25,694 - root - INFO - save_checkpoint True
+2025-03-24 19:12:25,705 - root - INFO - enable_nhwc False
+2025-03-24 19:12:25,706 - root - INFO - optimizer_type FusedAdam
+2025-03-24 19:12:25,707 - root - INFO - crop_size_x None
+2025-03-24 19:12:25,714 - root - INFO - crop_size_y None
+2025-03-24 19:12:25,714 - root - INFO - two_step_training False
+2025-03-24 19:12:25,718 - root - INFO - plot_animations False
+2025-03-24 19:12:25,720 - root - INFO - add_noise False
+2025-03-24 19:12:25,720 - root - INFO - noise_std 0
+2025-03-24 19:12:25,724 - root - INFO - world_size 1
+2025-03-24 19:12:25,734 - root - INFO - interp 0
+2025-03-24 19:12:25,736 - root - INFO - use_daily_climatology False
+2025-03-24 19:12:25,738 - root - INFO - global_batch_size 64
+2025-03-24 19:12:25,741 - root - INFO - experiment_dir C:\Users\zhaor\Desktop\FourCastNet-master\inference\out
+2025-03-24 19:12:25,747 - root - INFO - best_checkpoint_path C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:12:25,747 - root - INFO - resuming False
+2025-03-24 19:12:25,754 - root - INFO - local_rank 0
+2025-03-24 19:12:25,756 - root - INFO - ---------------------------------------------------
+2025-03-24 19:12:25,767 - root - INFO - Inference for 36 initial conditions
+2025-03-24 19:12:25,777 - root - INFO - Getting file stats from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:12:25,777 - root - INFO - Number of samples per year: 52
+2025-03-24 19:12:25,779 - root - INFO - Found data at path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out. Number of examples: 52. Image Shape: 720 x 1440 x 20
+2025-03-24 19:12:25,780 - root - INFO - Delta t: 6 hours
+2025-03-24 19:12:25,781 - root - INFO - Including 0 hours of past history in training at a frequency of 6 hours
+2025-03-24 19:12:25,782 - root - INFO - Loading trained model checkpoint from C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:13:05,972 - root - INFO - --------------- Versions ---------------
+2025-03-24 19:13:05,973 - root - INFO - Torch: 2.6.0+cu118
+2025-03-24 19:13:05,975 - root - INFO - ----------------------------------------
+2025-03-24 19:13:05,978 - root - INFO - ------------------ Configuration ------------------
+2025-03-24 19:13:05,979 - root - INFO - Configuration file: C:\Users\zhaor\Desktop\FourCastNet-master\config\AFNO.yaml
+2025-03-24 19:13:05,984 - root - INFO - Configuration name: afno_backbone
+2025-03-24 19:13:05,985 - root - INFO - log_to_wandb True
+2025-03-24 19:13:05,987 - root - INFO - lr 0.0005
+2025-03-24 19:13:05,987 - root - INFO - batch_size 64
+2025-03-24 19:13:05,991 - root - INFO - max_epochs 150
+2025-03-24 19:13:05,992 - root - INFO - scheduler CosineAnnealingLR
+2025-03-24 19:13:05,993 - root - INFO - in_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:13:06,003 - root - INFO - out_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:13:06,004 - root - INFO - orography False
+2025-03-24 19:13:06,005 - root - INFO - orography_path None
+2025-03-24 19:13:06,006 - root - INFO - exp_dir /pscratch/sd/s/shas1693/results/era5_wind
+2025-03-24 19:13:06,008 - root - INFO - train_data_path /pscratch/sd/s/shas1693/data/era5/train
+2025-03-24 19:13:06,008 - root - INFO - valid_data_path /pscratch/sd/s/shas1693/data/era5/test
+2025-03-24 19:13:06,014 - root - INFO - inf_data_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out
+2025-03-24 19:13:06,017 - root - INFO - time_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\time_means.npy
+2025-03-24 19:13:06,024 - root - INFO - global_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_means.npy
+2025-03-24 19:13:06,025 - root - INFO - global_stds_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_stds.npy
+2025-03-24 19:13:06,026 - root - INFO - loss l2
+2025-03-24 19:13:06,027 - root - INFO - num_data_workers 4
+2025-03-24 19:13:06,028 - root - INFO - dt 1
+2025-03-24 19:13:06,029 - root - INFO - n_history 0
+2025-03-24 19:13:06,034 - root - INFO - prediction_type iterative
+2025-03-24 19:13:06,034 - root - INFO - prediction_length 41
+2025-03-24 19:13:06,040 - root - INFO - n_initial_conditions 5
+2025-03-24 19:13:06,046 - root - INFO - ics_type default
+2025-03-24 19:13:06,054 - root - INFO - save_raw_forecasts True
+2025-03-24 19:13:06,055 - root - INFO - save_channel False
+2025-03-24 19:13:06,063 - root - INFO - masked_acc False
+2025-03-24 19:13:06,064 - root - INFO - maskpath None
+2025-03-24 19:13:06,070 - root - INFO - perturb False
+2025-03-24 19:13:06,073 - root - INFO - add_grid False
+2025-03-24 19:13:06,080 - root - INFO - N_grid_channels 0
+2025-03-24 19:13:06,081 - root - INFO - gridtype sinusoidal
+2025-03-24 19:13:06,084 - root - INFO - roll False
+2025-03-24 19:13:06,085 - root - INFO - num_blocks 8
+2025-03-24 19:13:06,093 - root - INFO - nettype afno
+2025-03-24 19:13:06,094 - root - INFO - patch_size 8
+2025-03-24 19:13:06,097 - root - INFO - width 56
+2025-03-24 19:13:06,097 - root - INFO - modes 32
+2025-03-24 19:13:06,102 - root - INFO - target default
+2025-03-24 19:13:06,105 - root - INFO - normalization zscore
+2025-03-24 19:13:06,112 - root - INFO - log_to_screen True
+2025-03-24 19:13:06,113 - root - INFO - save_checkpoint True
+2025-03-24 19:13:06,117 - root - INFO - enable_nhwc False
+2025-03-24 19:13:06,119 - root - INFO - optimizer_type FusedAdam
+2025-03-24 19:13:06,125 - root - INFO - crop_size_x None
+2025-03-24 19:13:06,125 - root - INFO - crop_size_y None
+2025-03-24 19:13:06,126 - root - INFO - two_step_training False
+2025-03-24 19:13:06,130 - root - INFO - plot_animations False
+2025-03-24 19:13:06,132 - root - INFO - add_noise False
+2025-03-24 19:13:06,139 - root - INFO - noise_std 0
+2025-03-24 19:13:06,140 - root - INFO - world_size 1
+2025-03-24 19:13:06,144 - root - INFO - interp 0
+2025-03-24 19:13:06,144 - root - INFO - use_daily_climatology False
+2025-03-24 19:13:06,145 - root - INFO - global_batch_size 64
+2025-03-24 19:13:06,153 - root - INFO - experiment_dir C:\Users\zhaor\Desktop\FourCastNet-master\inference\out
+2025-03-24 19:13:06,155 - root - INFO - best_checkpoint_path C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:13:06,158 - root - INFO - resuming False
+2025-03-24 19:13:06,158 - root - INFO - local_rank 0
+2025-03-24 19:13:06,159 - root - INFO - ---------------------------------------------------
+2025-03-24 19:13:06,160 - root - INFO - Inference for 36 initial conditions
+2025-03-24 19:13:06,164 - root - INFO - Getting file stats from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:13:06,168 - root - INFO - Number of samples per year: 52
+2025-03-24 19:13:06,168 - root - INFO - Found data at path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out. Number of examples: 52. Image Shape: 720 x 1440 x 20
+2025-03-24 19:13:06,172 - root - INFO - Delta t: 6 hours
+2025-03-24 19:13:06,173 - root - INFO - Including 0 hours of past history in training at a frequency of 6 hours
+2025-03-24 19:13:06,174 - root - INFO - Loading trained model checkpoint from C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:13:08,619 - root - INFO - Loading inference data
+2025-03-24 19:13:08,619 - root - INFO - Inference data from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:13:08,623 - root - INFO - Initial condition 1 of 36
+2025-03-24 19:15:15,973 - root - INFO - --------------- Versions ---------------
+2025-03-24 19:15:15,974 - root - INFO - Torch: 2.6.0+cu118
+2025-03-24 19:15:15,977 - root - INFO - ----------------------------------------
+2025-03-24 19:15:15,980 - root - INFO - ------------------ Configuration ------------------
+2025-03-24 19:15:15,982 - root - INFO - Configuration file: C:\Users\zhaor\Desktop\FourCastNet-master\config\AFNO.yaml
+2025-03-24 19:15:15,984 - root - INFO - Configuration name: afno_backbone
+2025-03-24 19:15:15,985 - root - INFO - log_to_wandb True
+2025-03-24 19:15:15,985 - root - INFO - lr 0.0005
+2025-03-24 19:15:15,986 - root - INFO - batch_size 64
+2025-03-24 19:15:15,990 - root - INFO - max_epochs 150
+2025-03-24 19:15:15,993 - root - INFO - scheduler CosineAnnealingLR
+2025-03-24 19:15:15,994 - root - INFO - in_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:15:15,995 - root - INFO - out_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:15:15,996 - root - INFO - orography False
+2025-03-24 19:15:15,998 - root - INFO - orography_path None
+2025-03-24 19:15:15,998 - root - INFO - exp_dir /pscratch/sd/s/shas1693/results/era5_wind
+2025-03-24 19:15:16,000 - root - INFO - train_data_path /pscratch/sd/s/shas1693/data/era5/train
+2025-03-24 19:15:16,001 - root - INFO - valid_data_path /pscratch/sd/s/shas1693/data/era5/test
+2025-03-24 19:15:16,003 - root - INFO - inf_data_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out
+2025-03-24 19:15:16,010 - root - INFO - time_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\time_means.npy
+2025-03-24 19:15:16,010 - root - INFO - global_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_means.npy
+2025-03-24 19:15:16,012 - root - INFO - global_stds_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_stds.npy
+2025-03-24 19:15:16,013 - root - INFO - loss l2
+2025-03-24 19:15:16,014 - root - INFO - num_data_workers 4
+2025-03-24 19:15:16,017 - root - INFO - dt 1
+2025-03-24 19:15:16,021 - root - INFO - n_history 0
+2025-03-24 19:15:16,021 - root - INFO - prediction_type iterative
+2025-03-24 19:15:16,027 - root - INFO - prediction_length 41
+2025-03-24 19:15:16,031 - root - INFO - n_initial_conditions 5
+2025-03-24 19:15:16,031 - root - INFO - ics_type default
+2025-03-24 19:15:16,033 - root - INFO - save_raw_forecasts True
+2025-03-24 19:15:16,035 - root - INFO - save_channel False
+2025-03-24 19:15:16,041 - root - INFO - masked_acc False
+2025-03-24 19:15:16,043 - root - INFO - maskpath None
+2025-03-24 19:15:16,046 - root - INFO - perturb False
+2025-03-24 19:15:16,046 - root - INFO - add_grid False
+2025-03-24 19:15:16,048 - root - INFO - N_grid_channels 0
+2025-03-24 19:15:16,056 - root - INFO - gridtype sinusoidal
+2025-03-24 19:15:16,058 - root - INFO - roll False
+2025-03-24 19:15:16,059 - root - INFO - num_blocks 8
+2025-03-24 19:15:16,061 - root - INFO - nettype afno
+2025-03-24 19:15:16,063 - root - INFO - patch_size 8
+2025-03-24 19:15:16,068 - root - INFO - width 56
+2025-03-24 19:15:16,072 - root - INFO - modes 32
+2025-03-24 19:15:16,073 - root - INFO - target default
+2025-03-24 19:15:16,080 - root - INFO - normalization zscore
+2025-03-24 19:15:16,084 - root - INFO - log_to_screen True
+2025-03-24 19:15:16,092 - root - INFO - save_checkpoint True
+2025-03-24 19:15:16,099 - root - INFO - enable_nhwc False
+2025-03-24 19:15:16,104 - root - INFO - optimizer_type FusedAdam
+2025-03-24 19:15:16,108 - root - INFO - crop_size_x None
+2025-03-24 19:15:16,116 - root - INFO - crop_size_y None
+2025-03-24 19:15:16,119 - root - INFO - two_step_training False
+2025-03-24 19:15:16,122 - root - INFO - plot_animations False
+2025-03-24 19:15:16,131 - root - INFO - add_noise False
+2025-03-24 19:15:16,133 - root - INFO - noise_std 0
+2025-03-24 19:15:16,136 - root - INFO - world_size 1
+2025-03-24 19:15:16,141 - root - INFO - interp 0
+2025-03-24 19:15:16,147 - root - INFO - use_daily_climatology False
+2025-03-24 19:15:16,153 - root - INFO - global_batch_size 64
+2025-03-24 19:15:16,158 - root - INFO - experiment_dir C:\Users\zhaor\Desktop\FourCastNet-master\inference\out
+2025-03-24 19:15:16,160 - root - INFO - best_checkpoint_path C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:15:16,164 - root - INFO - resuming False
+2025-03-24 19:15:16,166 - root - INFO - local_rank 0
+2025-03-24 19:15:16,168 - root - INFO - ---------------------------------------------------
+2025-03-24 19:15:16,180 - root - INFO - Inference for 36 initial conditions
+2025-03-24 19:15:16,205 - root - INFO - Getting file stats from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:15:16,209 - root - INFO - Number of samples per year: 52
+2025-03-24 19:15:16,210 - root - INFO - Found data at path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out. Number of examples: 52. Image Shape: 720 x 1440 x 20
+2025-03-24 19:15:16,214 - root - INFO - Delta t: 6 hours
+2025-03-24 19:15:16,220 - root - INFO - Including 0 hours of past history in training at a frequency of 6 hours
+2025-03-24 19:15:16,226 - root - INFO - Loading trained model checkpoint from C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:15:19,632 - root - INFO - Loading inference data
+2025-03-24 19:15:19,633 - root - INFO - Inference data from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:15:19,636 - root - INFO - Initial condition 1 of 36
+2025-03-24 19:19:40,394 - root - INFO - --------------- Versions ---------------
+2025-03-24 19:19:40,395 - root - INFO - Torch: 2.6.0+cu118
+2025-03-24 19:19:40,395 - root - INFO - ----------------------------------------
+2025-03-24 19:19:40,395 - root - INFO - ------------------ Configuration ------------------
+2025-03-24 19:19:40,395 - root - INFO - Configuration file: C:\Users\zhaor\Desktop\FourCastNet-master\config\AFNO.yaml
+2025-03-24 19:19:40,396 - root - INFO - Configuration name: afno_backbone
+2025-03-24 19:19:40,396 - root - INFO - log_to_wandb True
+2025-03-24 19:19:40,397 - root - INFO - lr 0.0005
+2025-03-24 19:19:40,398 - root - INFO - batch_size 64
+2025-03-24 19:19:40,399 - root - INFO - max_epochs 150
+2025-03-24 19:19:40,399 - root - INFO - scheduler CosineAnnealingLR
+2025-03-24 19:19:40,400 - root - INFO - in_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:19:40,401 - root - INFO - out_channels [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-24 19:19:40,401 - root - INFO - orography False
+2025-03-24 19:19:40,402 - root - INFO - orography_path None
+2025-03-24 19:19:40,402 - root - INFO - exp_dir /pscratch/sd/s/shas1693/results/era5_wind
+2025-03-24 19:19:40,403 - root - INFO - train_data_path /pscratch/sd/s/shas1693/data/era5/train
+2025-03-24 19:19:40,404 - root - INFO - valid_data_path /pscratch/sd/s/shas1693/data/era5/test
+2025-03-24 19:19:40,405 - root - INFO - inf_data_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out
+2025-03-24 19:19:40,406 - root - INFO - time_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\time_means.npy
+2025-03-24 19:19:40,407 - root - INFO - global_means_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_means.npy
+2025-03-24 19:19:40,407 - root - INFO - global_stds_path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\global_stds.npy
+2025-03-24 19:19:40,408 - root - INFO - loss l2
+2025-03-24 19:19:40,408 - root - INFO - num_data_workers 4
+2025-03-24 19:19:40,409 - root - INFO - dt 1
+2025-03-24 19:19:40,410 - root - INFO - n_history 0
+2025-03-24 19:19:40,410 - root - INFO - prediction_type iterative
+2025-03-24 19:19:40,411 - root - INFO - prediction_length 41
+2025-03-24 19:19:40,411 - root - INFO - n_initial_conditions 5
+2025-03-24 19:19:40,412 - root - INFO - ics_type default
+2025-03-24 19:19:40,412 - root - INFO - save_raw_forecasts True
+2025-03-24 19:19:40,412 - root - INFO - save_channel False
+2025-03-24 19:19:40,415 - root - INFO - masked_acc False
+2025-03-24 19:19:40,415 - root - INFO - maskpath None
+2025-03-24 19:19:40,416 - root - INFO - perturb False
+2025-03-24 19:19:40,416 - root - INFO - add_grid False
+2025-03-24 19:19:40,417 - root - INFO - N_grid_channels 0
+2025-03-24 19:19:40,417 - root - INFO - gridtype sinusoidal
+2025-03-24 19:19:40,418 - root - INFO - roll False
+2025-03-24 19:19:40,419 - root - INFO - num_blocks 8
+2025-03-24 19:19:40,420 - root - INFO - nettype afno
+2025-03-24 19:19:40,420 - root - INFO - patch_size 8
+2025-03-24 19:19:40,421 - root - INFO - width 56
+2025-03-24 19:19:40,421 - root - INFO - modes 32
+2025-03-24 19:19:40,422 - root - INFO - target default
+2025-03-24 19:19:40,422 - root - INFO - normalization zscore
+2025-03-24 19:19:40,423 - root - INFO - log_to_screen True
+2025-03-24 19:19:40,423 - root - INFO - save_checkpoint True
+2025-03-24 19:19:40,424 - root - INFO - enable_nhwc False
+2025-03-24 19:19:40,424 - root - INFO - optimizer_type FusedAdam
+2025-03-24 19:19:40,424 - root - INFO - crop_size_x None
+2025-03-24 19:19:40,425 - root - INFO - crop_size_y None
+2025-03-24 19:19:40,425 - root - INFO - two_step_training False
+2025-03-24 19:19:40,426 - root - INFO - plot_animations False
+2025-03-24 19:19:40,426 - root - INFO - add_noise False
+2025-03-24 19:19:40,427 - root - INFO - noise_std 0
+2025-03-24 19:19:40,427 - root - INFO - world_size 1
+2025-03-24 19:19:40,428 - root - INFO - interp 0
+2025-03-24 19:19:40,430 - root - INFO - use_daily_climatology False
+2025-03-24 19:19:40,430 - root - INFO - global_batch_size 64
+2025-03-24 19:19:40,430 - root - INFO - experiment_dir C:\Users\zhaor\Desktop\FourCastNet-master\inference\out
+2025-03-24 19:19:40,431 - root - INFO - best_checkpoint_path C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:19:40,432 - root - INFO - resuming False
+2025-03-24 19:19:40,432 - root - INFO - local_rank 0
+2025-03-24 19:19:40,432 - root - INFO - ---------------------------------------------------
+2025-03-24 19:19:40,433 - root - INFO - Inference for 36 initial conditions
+2025-03-24 19:19:40,435 - root - INFO - Getting file stats from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:19:40,436 - root - INFO - Number of samples per year: 52
+2025-03-24 19:19:40,436 - root - INFO - Found data at path C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out. Number of examples: 52. Image Shape: 720 x 1440 x 20
+2025-03-24 19:19:40,437 - root - INFO - Delta t: 6 hours
+2025-03-24 19:19:40,437 - root - INFO - Including 0 hours of past history in training at a frequency of 6 hours
+2025-03-24 19:19:40,438 - root - INFO - Loading trained model checkpoint from C:\Users\zhaor\Desktop\FourCastNet-master\inference\out\backbone.ckpt
+2025-03-24 19:19:43,322 - root - INFO - Loading inference data
+2025-03-24 19:19:43,323 - root - INFO - Inference data from C:\\Users\\zhaor\\Desktop\\FourCastNet-master\\inference\\out\oct_2021_19_21.h5
+2025-03-24 19:19:43,325 - root - INFO - Initial condition 1 of 36
