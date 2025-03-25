@@ -61,21 +61,7 @@ afno_backbone: &backbone
 Run inference using
 
 ```
-python inference/inference.py \
-       --config=afno_backbone \
-       --run_num=0 \
-       --weights '/path/to/weights/backbone.ckpt' \
-       --override_dir '/path/to/output/scratch/directory/ \' 
-```
-
-Run inference for precipitation using
-
-```
-python inference/inference_precip.py \
-       --config=precip \
-       --run_num=0 \
-       --weights '/path/to/weights/precip.ckpt' \
-       --override_dir '/path/to/output/scratch/directory/ \' 
+python inference/inference.py --config=afno_backbone --run_num=0 --weights inference/out/backbone.ckpt --override_dir out
 ```
 
 Additional information on batched ensemble inference and precipitation model inference can be found at [inference/README_inference.md](inference/README_inference.md)
